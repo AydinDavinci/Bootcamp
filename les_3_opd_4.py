@@ -1,0 +1,10 @@
+woord1 = input('Wat voor weer is het? +e')
+stad1 = input('In welke stad?')
+naam1 = input('wat is de naam?')
+woord2 = input('waar ben je naar opzoek?')
+woord3 = input('wat is het persoon die je voor je ziet? +e')
+woord4 = input('wat verkoopt dat persoon?')
+woord5 = input('waar ging je heen?')
+woord6 = input('wat zag je mensen daar doen?')
+
+print ('Het was een '+ woord1 + 'dag in ' + stad1 + naam1 + ' liep door de straten, op zoek naar een ' + woord2 + '. Plotsteling zag ' + naam1 + ' een ' + woord3 + ' man/vrouw die een '+ woord4 +' verkocht'  + naam1 +'besloot om het te kopen en liep verder. Toen' + naam1 +' bij een ' + woord5 +'kwam, zag je een groep mensen die ' + woord6 + naam1 + 'besloot om mee te doen en had de tijd van je leven') 
