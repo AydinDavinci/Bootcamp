@@ -1,0 +1,7 @@
+print( 15+4, 'dit is een plus som' )
+print( 15-4, 'dit is een min som')
+print( 15*4, 'dit is een keer som')
+print( 15/4, 'dit is een deel som')
+print( 15//4, 'dit is een integer division som' )
+print( 15**4, 'dit is een exponentiatie-operator som' )
+print( 15%4, 'dit is een procent som' )
