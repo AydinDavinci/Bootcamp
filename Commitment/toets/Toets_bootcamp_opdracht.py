@@ -70,13 +70,25 @@ for menu in lijst_eten:
 # b: Schrijf code die ervoor zorgt dat alleen het eten met de langste naam wordt geprint in de terminal. # Let op: je moet in de code eerst bepalen welk eten de langste naam heeft (en dus niet hardcoded 1 voor de index gebruiken). # test je code door extra eten toe te voegen met een nog langere naam.
 lijst_eten = ['appel', 'pannenkoek', 'kiwi', 'hamburger']
 
-#---| OPDRACHT 10 |---
-# repareer de volgende code:
-max == 20
-getal = print("Voer een getal in")
-if getal >= max:
-   input(f"Het getal is groter dan [MAX]")
-elif getal <= max:
-  input(f"Het getal is kleiner dan [MAX]")
+#---| OPDRACHT 9 |---
+
+cijfer_vraag = int(input('geef me een cijfer tussen 1-10: '))
+ANTWOORD9 = 5
+
+if cijfer_vraag != ANTWOORD9:
+    print ("Helaas niet goed")
+
 else:
-   input(f"Het getal is gelijk aan (MAX)")
+    print ("Goed zo, dat is het juiste antwoord!")
+
+
+# #---| OPDRACHT 10 |---
+# repareer de volgende code:
+MAX = 20
+getal = print("Voer een getal in")
+if getal > MAX:
+    input(f"Het getal is groter dan {MAX}")
+elif getal < MAX:
+   input(f"Het getal is kleiner dan {MAX}")
+else:
+    input(f"Het getal is gelijk aan {MAX}")
