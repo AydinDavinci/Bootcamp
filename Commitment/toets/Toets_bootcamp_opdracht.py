@@ -52,7 +52,7 @@ for i in range (1, 251):
    print (i)
 
 #---| OPDRACHT 8 |---
-# Gegeven is:
+# Gegeven is:   
 
 lijst_eten = ['appel', 'pannenkoek', 'kiwi', 'hamburger']
 
@@ -85,10 +85,10 @@ else:
 # #---| OPDRACHT 10 |---
 # repareer de volgende code:
 MAX = 20
-getal = print("Voer een getal in")
+getal = int(print("Voer een getal in"))
 if getal > MAX:
     input(f"Het getal is groter dan {MAX}")
-elif getal < MAX:
+elif MAX > getal:
    input(f"Het getal is kleiner dan {MAX}")
 else:
     input(f"Het getal is gelijk aan {MAX}")
